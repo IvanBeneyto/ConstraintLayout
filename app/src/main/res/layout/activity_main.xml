@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/purpleSquat1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toTopOf="@id/blueSquat1"
+        app:layout_constraintStart_toEndOf="@id/blueSquat1" />
+
+    <View
+
+        android:id="@+id/blueSquat1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@id/blackSquat"
+        app:layout_constraintEnd_toStartOf="@id/blackSquat" />
+
+    <View
+        android:id="@+id/blueSquat2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@id/blackSquat"
+        app:layout_constraintStart_toEndOf="@id/blackSquat" />
+
+
+    <View
+        android:id="@+id/blackSquat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+
+        android:id="@+id/blueSquat3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintEnd_toStartOf="@id/blackSquat"
+        app:layout_constraintTop_toBottomOf="@id/blackSquat" />
+
+    <View
+        android:id="@+id/blueSquat4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintStart_toEndOf="@id/blackSquat"
+        app:layout_constraintTop_toBottomOf="@id/blackSquat" />
+
+    <View
+        android:id="@+id/purpleSquat2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        app:layout_constraintEnd_toStartOf="@+id/blueSquat3"
+        app:layout_constraintTop_toBottomOf="@+id/blueSquat3" />
+
+    <View
+        android:id="@+id/purpleSquat3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toEndOf="@+id/blueSquat3"
+        app:layout_constraintTop_toBottomOf="@+id/blueSquat3" />
+
+    <View
+        android:id="@+id/purpleSquat4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        app:layout_constraintStart_toEndOf="@+id/blueSquat4"
+        app:layout_constraintTop_toBottomOf="@+id/blueSquat4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
